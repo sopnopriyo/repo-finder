@@ -1,5 +1,5 @@
-# React Hot Sauce App With Redux and WebPack 
-This is a simple React app that I wrote that uses a Webpack environment to run. A user selects a hot sauce from a JSON data source which logs an action 'SAUCE_SELECTED' and updates the state through the Redux reducer. The info (name, maker and heat level) of the selected item is displayed below the dropdown list. A second action 'CLEAR_SAUCES' is executed and logged in the Redux store when the 'Clear All' button is pressed which clears all items from the store.
+# React Git Repo Finder
+This is a simple git repository finder app which search for repository name from github.com and show the details of each repository.
 
 ## Quick Start
 
@@ -15,7 +15,7 @@ npm run build
 ```
 ### Author
 
-Kyri Kyriacou
+[Shahin Alam](https://sopnopriyo.com)
 
 ### Version
 

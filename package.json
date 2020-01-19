@@ -1,0 +1,40 @@
+{
+  "name": "repo-finder",
+  "version": "1.0.0",
+  "description": "React App to find github repositories and details",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "author": "Shahin Alam",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "file-loader": "^5.0.2",
+    "lodash": "^4.17.15",
+    "react": "^16.2.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^5.1.2",
+    "react-thunk": "^1.0.0",
+    "redux": "^4.0.0",
+    "redux-thunk": "github:reduxjs/redux-thunk#master",
+    "url-loader": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^3.1.0",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.1.1"
+  }
+}

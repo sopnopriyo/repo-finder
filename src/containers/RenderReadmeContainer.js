@@ -14,9 +14,7 @@ class RenderReadmeContainer extends Component {
   }
   
   getOwnerLogin() {
-    console.log("owner in GetOwnerLogin", this.props.repository.owner);
     if (this.props.repository.owner !== undefined) {
-      console.log("final owner login", this.props.repository.owner.login);
       return this.props.repository.owner.login;
     }
   }
@@ -28,9 +26,6 @@ class RenderReadmeContainer extends Component {
   }
 
   render() {
-    console.log("owner:", this.getOwnerLogin());
-    console.log("name:", this.props.repository.name);
-
     return <RenderReadme readme={this.props.readme} />;
   }
 }

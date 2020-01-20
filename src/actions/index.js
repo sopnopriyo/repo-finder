@@ -65,8 +65,6 @@ export const loadRepositories = name => (dispatch, getState) => {
   const time = t1 - t0
   const timeAction = trackPerformance(time)
   dispatch(timeAction)
-  console.log(`Request time took ${time} milliseconds`)
-  console.log("typeof requestTime", typeof time)
 };
 
 export const loadNextRepositories = (name, page) => (dispatch, getState) => {

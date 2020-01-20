@@ -16,7 +16,6 @@ class RenderReposContainer extends Component {
   }
 
   render() {
-    console.log("this.props.time", this.props.time)
     return (
       <div>
       <header className="App-header">
